@@ -1,6 +1,6 @@
 # DeutscheTexte (German texts)
 
-Adds **9,143 German texts** for items and quests.
+Adds **12,257 German texts**: 9,143 for items and quests, and since 1.1.0 **3,114 dialogue lines** of the Storyline Backport (VisitAPI).
 
 ## How this mod was made (AI disclosure)
 
@@ -16,7 +16,7 @@ bug, please open an [issue](https://github.com/Kaanori/spt-deutschetexte/issues)
 
 ## Installation
 
-1. Download `DeutscheTexte-1.0.0.zip` from the [Releases](https://github.com/Kaanori/spt-deutschetexte/releases) page.
+1. Download `DeutscheTexte-1.1.0.zip` from the [Releases](https://github.com/Kaanori/spt-deutschetexte/releases) page.
 2. Extract it **into your SPT game folder** (the folder that contains `EscapeFromTarkov.exe`).
    The ZIP already has the right layout; the mod ends up in `SPT_Runtime/user/mods/DeutscheTexte/`.
    On Windows, make sure "Extract All" does not add an extra subfolder.
@@ -45,6 +45,14 @@ copied from another translation mod. The scripts themselves no longer exist;
 their result, `texte-ge.json`, has been kept.
 
 For classification see LICENSES.md, section 2.3.
+
+## Storyline dialogues (1.1.0)
+
+Since 1.1.0 the mod also contains German translations of all **3,114 dialogue lines** of the *Storyline Backport* pack for **VisitAPI** (trader conversations, narrations, jokes). The English originals belong to their authors – all credit for the story, characters and writing goes to them; this mod only adds the German translation.
+
+- They only show up if VisitAPI with the Storyline pack is installed; without it the extra entries are simply unused.
+- VisitAPI only fills in texts that are still missing, while this mod sets them, so the German version wins regardless of load order. The Storyline files themselves are not changed.
+- Names of people, maps, factions and weapons stay in English, as in the German version of the game. The translation was done with the help of an AI assistant (Claude).
 
 ## File layout
 

@@ -1,6 +1,6 @@
 # DeutscheTexte (German texts)
 
-Adds **12,257 German texts**: 9,143 for items and quests, and since 1.1.0 **3,114 dialogue lines** of the Storyline Backport (VisitAPI).
+Adds **14,776 German texts**: 9,143 for items and quests, since 1.1.0 **3,114 dialogue lines** of the Storyline Backport (VisitAPI), and since 1.2.0 **2,519 texts that were still English** in a modded SPT 4.1.6 (item descriptions, quest names and texts, objectives).
 
 ## How this mod was made (AI disclosure)
 
@@ -16,7 +16,7 @@ bug, please open an [issue](https://github.com/Kaanori/spt-deutschetexte/issues)
 
 ## Installation
 
-1. Download `DeutscheTexte-1.1.0.zip` from the [Releases](https://github.com/Kaanori/spt-deutschetexte/releases) page.
+1. Download `DeutscheTexte-1.2.0.zip` from the [Releases](https://github.com/Kaanori/spt-deutschetexte/releases) page.
 2. Extract it **into your SPT game folder** (the folder that contains `EscapeFromTarkov.exe`).
    The ZIP already has the right layout; the mod ends up in `SPT_Runtime/user/mods/DeutscheTexte/`.
    On Windows, make sure "Extract All" does not add an extra subfolder.
@@ -53,6 +53,10 @@ Since 1.1.0 the mod also contains German translations of all **3,114 dialogue li
 - They only show up if VisitAPI with the Storyline pack is installed; without it the extra entries are simply unused.
 - VisitAPI only fills in texts that are still missing, while this mod sets them, so the German version wins regardless of load order. The Storyline files themselves are not changed.
 - Names of people, maps, factions and weapons stay in English, as in the German version of the game. The translation was done with the help of an AI assistant (Claude).
+
+## Missing texts (1.2.0)
+
+Since 1.2.0 the mod also fills in **2,519 texts that were still English** in the German language table of a modded SPT 4.1.6 (found by comparing the English and German tables the server sends): item descriptions (e.g. Definitive Weapon Variants, WTT items and clothing), quest names, quest descriptions and messages, and objectives. Texts of mods you don't have installed are simply unused. All credit for the original texts goes to their authors; this mod only adds German translations (made with the help of an AI assistant, Claude). Names of weapons, ammo, brands and people stay in English, as in the German version of the game.
 
 ## File layout
 
